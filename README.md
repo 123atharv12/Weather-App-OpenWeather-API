@@ -1,20 +1,31 @@
 
-# Weather App with OpenWeather API
+# Weather App Using Open-Meteo API
 
-A Python command-line app that fetches current weather information for a city.
+A Python application that displays current weather information for a selected city.
 
 ## Features
-- Live weather API integration
-- Temperature in Celsius
-- Humidity information
-- Weather description
-- Error handling
+- Search weather by city name
+- Display temperature in Celsius
+- Display humidity
+- Display weather code
+- Handle invalid cities and network errors
 
-## Requirements
-Python 3 and an OpenWeather API key.
+## Technology
+- Python 3
+- Requests library
+- Open-Meteo API
 
-Install dependencies:
+## Installation
+Install the required library:
+
 pip install -r requirements.txt
 
-## Run
+## How to Run
+Run the following command:
+
 python weather_app.py
+
+Enter a city name when prompted.
+
+## API
+Open-Meteo provides weather data without an API key for eligible free use.
